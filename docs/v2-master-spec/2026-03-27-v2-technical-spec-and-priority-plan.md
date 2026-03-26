@@ -293,6 +293,12 @@ This is a recommended V2 structure, not a mandatory exact tree.
 
 ```text
 livepilot_v2/
+  product/
+    edition_manifest.py
+    entitlements.py
+    licensing.py
+    onboarding.py
+    packaging.py
   control/
     ableton_connection.py
     remote_commands.py
@@ -353,6 +359,23 @@ livepilot_v2/
     max_messages/
     reports/
 ```
+
+### 7.1 Productization Layer
+
+The V2 musical architecture also needs a thin productization layer so editions
+and workflows can be packaged without fragmenting the codebase.
+
+That layer should own:
+
+- edition manifests and capability matrices
+- entitlement checks for workflow exposure
+- licensing and update-entitlement state
+- edition-aware onboarding and upgrade messaging
+- packaging metadata for installer and release channels
+
+This should remain structurally separate from the core music-intelligence
+modules so commercialization logic does not leak into analysis, retrieval, or
+critique code.
 
 ---
 
@@ -1110,30 +1133,35 @@ This section is a narrative summary and should be updated to match it.
 - define V2 schemas
 - set up analysis, retrieval, and MCP module boundaries
 - define tool-surface migration rules
+- define the first edition capability matrix and productization boundaries
 
 ## Weeks 3-5
 
 - ship pluggable offline analysis pipeline
 - ship analysis snapshot storage
 - expose first high-level analysis workflows
+- establish the entitlement architecture skeleton needed for edition-aware packaging
 
 ## Weeks 6-8
 
 - harden analysis outputs on a canonical fixture set
 - refine section and reference-delta reporting
 - document `V2.0` success criteria and workflow usage
+- prepare edition-aware onboarding and documentation split for the first public offer
 
 ## Weeks 9-10
 
 - ship audio asset catalog
 - ship descriptor-first local similarity
 - expose first thin retrieval workflow(s)
+- define trial, upgrade, and installer packaging rules for the first commercial release
 
 ## Weeks 11-12
 
 - stabilize retrieval ranking
 - prepare critique schemas and evaluation protocol
 - cut `V2.0` or `V2.0.x` with listening firmly landed
+- begin assembling launch-quality assets around real workflows, not tool counts
 
 ---
 

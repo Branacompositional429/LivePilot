@@ -36,6 +36,10 @@ The intent is to keep V2 grounded in three questions:
   commercialization, marketing, and implementation planning beyond the core V2
   roadmap.
 
+- [2026-03-27-livepilot-pricing-and-packaging-decision-memo.md](./2026-03-27-livepilot-pricing-and-packaging-decision-memo.md)  
+  Decision-oriented memo covering recommended edition rollout, pricing posture,
+  upgrade logic, and productization requirements for commercial launch.
+
 ## Relationship To Existing Docs
 
 This package should be read alongside the current V1-era specs in [../specs](../specs), especially:

